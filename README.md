@@ -41,4 +41,4 @@ The process for each log entry is as follows:
 * **Raw System Prompt as Context**: The script uses the *entire* `system` prompt as the context for evaluation, without any summarization or extraction. This was a specific simplification that can result in very large prompts, potentially impacting speed and cost.
 
 ## Setup
-Before running main.py, set the environment variables `OPENAI_API_KEY`, `GEMINI_API_KEY` and `LLM_PROVIDER` as `GEMINI` or `OPENAI`. The output json file given here is generated using GEMINI.
+Before running ragas_integration.py, set the environment variables `OPENAI_API_KEY`, `GEMINI_API_KEY` and `LLM_PROVIDER` as `GEMINI` or `OPENAI`. The output json file given here is generated using GEMINI.
